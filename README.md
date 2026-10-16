@@ -131,7 +131,6 @@ O projeto é otimizado para sites estáticos corporativos no **Cloudflare Pages*
 - **Branch de Produção:** `master`
 - **Arquivos Especiais Inclusos:**
   - `public/_headers`: Caching imutável para assets e políticas rígidas de segurança (HSTS, CSP, X-Frame-Options).
-  - `public/_redirects`: Fallback SPA para navegação fluida em rotas sem recarregar a página.
 
 ### Como Conectar no Cloudflare Pages:
 1. Acesse o painel da Cloudflare: [dash.cloudflare.com](https://dash.cloudflare.com/) ➔ **Workers & Pages**.

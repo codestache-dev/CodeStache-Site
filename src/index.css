@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-stache-indigo: #6366F1;
+  --color-stache-indigo-dark: #4F46E5;
+  --color-stache-mint: #10B981;
+  --color-stache-mint-dark: #059669;
+  --color-stache-blue: #3B82F6;
+  --color-stache-obsidian: #0B0F19;
+  --color-stache-slate: #151C2C;
+  --color-stache-border: #1E293B;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+:root {
+  --bg-app: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --color-primary: #4F46E5;
+  --color-secondary: #059669;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --border-subtle: #E2E8F0;
+}
+
+.dark {
+  --bg-app: #0B0F19;
+  --bg-surface: #151C2C;
+  --color-primary: #6366F1;
+  --color-secondary: #10B981;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-subtle: #1E293B;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99, 102, 241, 0.4) transparent;
+}
+
+/* Custom WebKit Scrollbar matching CodeStache brand */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.35);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.65);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.bg-stache-gradient {
+  background: linear-gradient(135deg, #6366F1 0%, #3B82F6 50%, #10B981 100%);
+}
+
+.text-stache-gradient {
+  background: linear-gradient(135deg, #6366F1 0%, #3B82F6 50%, #10B981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-stache-gradient {
+  border-image: linear-gradient(135deg, #6366F1 0%, #3B82F6 50%, #10B981 100%) 1;
+}

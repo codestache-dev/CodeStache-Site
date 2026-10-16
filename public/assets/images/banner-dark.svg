@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="codeStacheFlow" x1="0%" y1="75%" x2="100%" y2="25%">
+      <stop offset="0%" stop-color="#5152FD" />
+      <stop offset="30%" stop-color="#3884F9" />
+      <stop offset="68%" stop-color="#03E4C1" />
+      <stop offset="100%" stop-color="#05E8B3" />
+    </linearGradient>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0E1424" />
+      <stop offset="100%" stop-color="#060913" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bannerBg)" />
+  
+  <!-- Grid Tecnológico Sutil -->
+  <line x1="0" y1="80" x2="1200" y2="80" stroke="#1E293B" stroke-width="1" opacity="0.4" />
+  <line x1="0" y1="320" x2="1200" y2="320" stroke="#1E293B" stroke-width="1" opacity="0.4" />
+  <line x1="420" y1="0" x2="420" y2="400" stroke="#1E293B" stroke-width="1" opacity="0.4" />
+
+  <!-- Emblema Oficial à Esquerda -->
+  <g transform="translate(60, 60) scale(0.55)" fill="url(#codeStacheFlow)">
+    <path d="M 62 250 L 135 177 C 137 175, 140 172, 144 172 L 152 172 C 156 172, 159 175, 159 179 L 159 184 L 97 252 C 93 254, 93 258, 97 260 L 159 328 L 159 333 C 159 337, 156 340, 152 340 L 144 340 C 140 340, 137 337, 135 335 L 62 262 C 58 258, 58 254, 62 250 Z" />
+    <path d="M 256.0 241.37 C 256.0 239.88, 253.57 239.63, 252.52 238.58 C 248.14 234.2, 244.84 232.65, 239.97 230.22 C 223.84 222.15, 208.63 227.07, 193.98 234.4 C 183.59 239.59, 177.78 254.34, 167.5 259.48 C 161.0 262.73, 149.86 266.0, 142.41 262.27 C 141.09 261.61, 131.26 255.32, 131.26 258.09 C 131.26 266.09, 135.61 271.58, 139.62 277.6 C 153.52 298.45, 178.54 298.56, 198.16 288.75 C 209.31 283.18, 215.05 269.16, 226.03 263.67 C 230.84 261.26, 242.14 261.26, 246.94 263.67 C 247.48 263.93, 256.0 270.46, 256.0 269.24 C 256.0 270.46, 264.52 263.93, 265.06 263.67 C 269.86 261.26, 281.16 261.26, 285.97 263.67 C 296.95 269.16, 302.69 283.18, 313.84 288.75 C 333.46 298.56, 358.48 298.45, 372.38 277.6 C 376.39 271.58, 380.74 266.09, 380.74 258.09 C 380.74 255.32, 370.91 261.61, 369.59 262.27 C 362.14 266.0, 351.0 262.73, 344.5 259.48 C 334.22 254.34, 328.41 239.59, 318.02 234.4 C 303.37 227.07, 288.16 222.15, 272.03 230.22 C 267.16 232.65, 263.86 234.2, 259.48 238.58 C 258.43 239.63, 256.0 239.88, 256.0 241.37 Z" />
+    <path d="M 62 250 L 135 177 C 137 175, 140 172, 144 172 L 152 172 C 156 172, 159 175, 159 179 L 159 184 L 97 252 C 93 254, 93 258, 97 260 L 159 328 L 159 333 C 159 337, 156 340, 152 340 L 144 340 C 140 340, 137 337, 135 335 L 62 262 C 58 258, 58 254, 62 250 Z" transform="translate(512, 0) scale(-1, 1)" />
+  </g>
+
+  <!-- Tipografia Space Grotesk -->
+  <text x="440" y="195" font-family="'Space Grotesk', system-ui, sans-serif" font-size="76" font-weight="700" fill="#F8FAFC" letter-spacing="-1.5">
+    Code<tspan fill="url(#codeStacheFlow)">Stache</tspan>
+  </text>
+
+  <!-- Tagline JetBrains Mono -->
+  <text x="444" y="245" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="500" fill="#94A3B8" letter-spacing="0.5">
+    &gt; Engenharia inteligente com assinatura própria_
+  </text>
+
+  <!-- Barra de Assinatura Inferior -->
+  <rect x="444" y="275" width="160" height="4" rx="2" fill="url(#codeStacheFlow)" />
+</svg>

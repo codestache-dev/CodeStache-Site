@@ -4,7 +4,7 @@
 
 # ⚡ CodeStache — Website Institucional
 
-[![Production Deployment](https://img.shields.io/badge/Vercel-Live_Preview-black?style=for-the-badge&logo=vercel)](https://temporary-snappy-ocarina-39gzhf3.vercel.app)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-Deploy_Ready-F38020?style=for-the-badge&logo=cloudflare)](https://pages.cloudflare.com/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-CodeStache--Site-181717?style=for-the-badge&logo=github)](https://github.com/codestache-dev/CodeStache-Site)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -122,12 +122,22 @@ O projeto estará acessível em `http://localhost:5173`.
 
 ---
 
-## 🌐 Deploy na Vercel
-
-O projeto está configurado para deploy automático na **Vercel**:
-- **Ambiente de Produção:** Branch `master`
+## 🌐 Deploy em Produção (Cloudflare Pages)
+ 
+O projeto é otimizado para sites estáticos corporativos no **Cloudflare Pages**:
+- **Framework Preset:** `Vite`
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist`
+- **Branch de Produção:** `master`
+- **Arquivos Especiais Inclusos:**
+  - `public/_headers`: Caching imutável para assets e políticas rígidas de segurança (HSTS, CSP, X-Frame-Options).
+  - `public/_redirects`: Fallback SPA para navegação fluida em rotas sem recarregar a página.
+
+### Como Conectar no Cloudflare Pages:
+1. Acesse o painel da Cloudflare: [dash.cloudflare.com](https://dash.cloudflare.com/) ➔ **Workers & Pages**.
+2. Clique em **Create application** ➔ aba **Pages** ➔ **Connect to Git**.
+3. Selecione a organização **`codestache-dev`** e o repositório **`CodeStache-Site`**.
+4. Defina o preset como **Vite** e clique em **Save and Deploy**. Todo push na branch `master` gerará deploy contínuo em menos de 15 segundos!
 
 ---
 

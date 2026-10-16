@@ -5,7 +5,7 @@
 # ⚡ CodeStache — Website Institucional
 
 [![Production Deployment](https://img.shields.io/badge/Vercel-Live_Preview-black?style=for-the-badge&logo=vercel)](https://temporary-snappy-ocarina-39gzhf3.vercel.app)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-CodeStache--Site-181717?style=for-the-badge&logo=github)](https://github.com/JoaoVitorDiass/CodeStache-Site)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-CodeStache--Site-181717?style=for-the-badge&logo=github)](https://github.com/codestache-dev/CodeStache-Site)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
@@ -94,7 +94,7 @@ linear-gradient(135deg, #6366F1 0%, #3B82F6 50%, #10B981 100%)
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/JoaoVitorDiass/CodeStache-Site.git
+git clone https://github.com/codestache-dev/CodeStache-Site.git
 cd CodeStache-Site
 ```
 
@@ -138,7 +138,7 @@ O projeto está configurado para deploy automático na **Vercel**:
 - **GitHub:** [@JoaoVitorDiass](https://github.com/JoaoVitorDiass)  
 - **LinkedIn:** [João Vitor Dias](https://www.linkedin.com/in/joaovitor-diass)  
 - **WhatsApp:** [+55 (62) 98219-3504](https://wa.me/5562982193504)  
-- **Organização:** [CodeStache](https://github.com/JoaoVitorDiass)
+- **Organização:** [CodeStache](https://github.com/codestache-dev)
 
 ---
 

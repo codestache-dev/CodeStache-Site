@@ -55,10 +55,10 @@ export const HeroSection: React.FC = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2"
           >
             <a
-              href="#estimator"
+              href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg font-medium text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 shadow-lg shadow-indigo-600/30 hover:shadow-indigo-500/40 transition-all hover:scale-[1.02] text-sm sm:text-base group"
             >
-              <span>Calcular Orçamento do Projeto</span>
+              <span>Solicitar Cotação do Projeto</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
 

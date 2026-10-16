@@ -6,7 +6,6 @@ import AboutSection from './components/AboutSection'
 import ServicesSection from './components/ServicesSection'
 import ProductsSection from './components/ProductsSection'
 import TeamSection from './components/TeamSection'
-import BudgetEstimator from './components/BudgetEstimator'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 
@@ -21,7 +20,6 @@ export const App: React.FC = () => {
           <ServicesSection />
           <ProductsSection />
           <TeamSection />
-          <BudgetEstimator />
           <ContactSection />
         </main>
         <Footer />

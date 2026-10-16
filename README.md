@@ -14,7 +14,7 @@
 
 Plataforma web institucional e comercial da **CodeStache**, software house especializada em desenvolvimento de software sob medida, automação corporativa com agentes autônomos de IA e soluções de engenharia escaláveis.
 
-[Acessar Site Online](https://temporary-snappy-ocarina-39gzhf3.vercel.app) • [Simulador de Projetos](#-simulador-de-investimento-e-escopo) • [Serviços](#-serviços-e-especialidades) • [O Fundador](#-o-fundador)
+[Acessar Site Online](https://temporary-snappy-ocarina-39gzhf3.vercel.app) • [Cotações & Contato](#-cotações-sob-medida--contato-direto) • [Serviços](#-serviços-e-especialidades) • [O Fundador](#-o-fundador)
 
 </div>
 
@@ -24,7 +24,7 @@ Plataforma web institucional e comercial da **CodeStache**, software house espec
 
 O **CodeStache-Site** foi projetado seguindo as diretrizes rigorosas do **Design System CodeStache** (*Dark-First* nativo, gradientes neon, tipografia técnica e microinterações táteis). 
 
-A aplicação apresenta a proposta de valor da software house, seu portfólio de soluções (com destaque para a plataforma **StacheHub**), o perfil do fundador e um **Simulador Interativo de Orçamento** com despacho em tempo real diretamente para o WhatsApp comercial.
+A aplicação apresenta a proposta de valor da software house, seu portfólio de soluções (com destaque para a plataforma **StacheHub**), o perfil do fundador e um fluxo de **Cotações Sob Medida** com despacho em tempo real diretamente para o WhatsApp comercial oficial.
 
 ---
 
@@ -40,8 +40,7 @@ A aplicação apresenta a proposta de valor da software house, seu portfólio de
   - Integrações Críticas de Sistemas & APIs em Tempo Real (SignalR, WebSockets).
 - **📦 Showcase de Produtos (Flagship StacheHub):** Apresentação da plataforma Help Desk corporativa desenvolvida pela CodeStache com SLAs inteligentes, WebSockets e auditoria em tempo real.
 - **👨‍💻 O Fundador:** Apresentação profissional de **João Vitor Dias** (Full Stack Engineer & Arquiteto de Soluções), stack tecnológica, histórico de liderança técnica e links diretos (GitHub e LinkedIn).
-- **🧮 Simulador de Investimento e Escopo:** Calculadora interativa onde o cliente seleciona formato de projeto (MVP, SaaS, IA, Consultoria), módulos adicionais e urgência, recebendo estimativa instantânea de valor e prazo em dias úteis com exportação automática para briefing.
-- **📲 Contato Direto & WhatsApp:** Formulário de briefing sem intermediários que formata o projeto e dispara a conversa diretamente para o WhatsApp comercial oficial (`+55 62 9 8219-3504`).
+- **📋 Cotações Sob Medida & Contato Direto:** Formulário técnico onde o cliente detalha a demanda, prazos desejados e requisitos, despachando o briefing estruturado diretamente para o WhatsApp comercial oficial (`+55 62 9 8219-3504`) para atendimento personalizado da engenharia.
 
 ---
 

@@ -14,8 +14,7 @@ const navItems: NavItem[] = [
   { label: 'Serviços', href: '#services' },
   { label: 'Produtos', href: '#products' },
   { label: 'Especialista', href: '#team' },
-  { label: 'Simulador', href: '#estimator' },
-  { label: 'Contato', href: '#contact' },
+  { label: 'Cotações & Contato', href: '#contact' },
 ]
 
 export const Navbar: React.FC = () => {
@@ -119,11 +118,11 @@ export const Navbar: React.FC = () => {
             </button>
 
             <a
-              href="#estimator"
-              onClick={(e) => handleNavClick(e, '#estimator')}
+              href="#contact"
+              onClick={(e) => handleNavClick(e, '#contact')}
               className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-sm shadow-indigo-600/30 transition-all hover:shadow-indigo-500/25 group"
             >
-              <span>Estimar Projeto</span>
+              <span>Solicitar Cotação</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </a>
           </div>

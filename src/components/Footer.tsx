@@ -85,8 +85,8 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#estimator" className="hover:text-indigo-600 dark:hover:text-white transition-colors">
-                  Simulador de Custos
+                <a href="#contact" className="hover:text-indigo-600 dark:hover:text-white transition-colors">
+                  Cotações &amp; Contato
                 </a>
               </li>
             </ul>

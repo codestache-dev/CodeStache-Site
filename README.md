@@ -40,7 +40,7 @@ A aplicação apresenta a proposta de valor da software house, seu portfólio de
   - Integrações Críticas de Sistemas & APIs em Tempo Real (SignalR, WebSockets).
 - **📦 Showcase de Produtos (Flagship StacheHub):** Apresentação da plataforma Help Desk corporativa desenvolvida pela CodeStache com SLAs inteligentes, WebSockets e auditoria em tempo real.
 - **👨‍💻 O Fundador:** Apresentação profissional de **João Vitor Dias** (Full Stack Engineer & Arquiteto de Soluções), stack tecnológica, histórico de liderança técnica e links diretos (GitHub e LinkedIn).
-- **📋 Cotações Sob Medida & Contato Direto:** Formulário técnico onde o cliente detalha a demanda, prazos desejados e requisitos, despachando o briefing estruturado diretamente para o WhatsApp comercial oficial (`+55 62 9 8219-3504`) para atendimento personalizado da engenharia.
+- **📋 Cotações Sob Medida & Contato Direto:** Formulário técnico onde o cliente detalha a demanda, prazos desejados e requisitos, despachando o briefing estruturado diretamente para o WhatsApp comercial oficial (`+55 18 99660-5512`) para atendimento personalizado da engenharia.
 
 ---
 
@@ -146,7 +146,9 @@ O projeto é otimizado para sites estáticos corporativos no **Cloudflare Pages*
 *Full Stack Engineer & Arquiteto de Soluções*  
 - **GitHub:** [@JoaoVitorDiass](https://github.com/JoaoVitorDiass)  
 - **LinkedIn:** [João Vitor Dias](https://www.linkedin.com/in/joaovitor-diass)  
-- **WhatsApp:** [+55 (62) 98219-3504](https://wa.me/5562982193504)  
+- **E-mail:** [joovitordiasdasilva@gmail.com](mailto:joovitordiasdasilva@gmail.com)  
+- **WhatsApp:** [+55 (18) 99660-5512](https://wa.me/5518996605512)  
+- **Localização:** Presidente Prudente, SP  
 - **Organização:** [CodeStache](https://github.com/codestache-dev)
 
 ---

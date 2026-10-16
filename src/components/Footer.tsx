@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="mailto:contato@codestache.dev"
+                href="mailto:joovitordiasdasilva@gmail.com"
                 className="p-2.5 rounded-lg bg-slate-100 dark:bg-[#151C2C] border border-slate-200 dark:border-[#1E293B] text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
                 aria-label="Email"
               >

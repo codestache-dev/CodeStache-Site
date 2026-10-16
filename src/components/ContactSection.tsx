@@ -32,7 +32,7 @@ export const ContactSection: React.FC = () => {
       setLoading(false)
       setSubmitted(true)
       // Open WhatsApp in new tab
-      window.open(`https://wa.me/5562982193504?text=${whatsappMessage}`, '_blank')
+      window.open(`https://wa.me/5518996605512?text=${whatsappMessage}`, '_blank')
     }, 600)
   }
 
@@ -67,7 +67,7 @@ export const ContactSection: React.FC = () => {
               <div className="space-y-4 pt-2">
                 {/* WhatsApp */}
                 <a
-                  href="https://wa.me/5562982193504?text=Ol%C3%A1%20CodeStache!%20Gostaria%20de%20conversar%20sobre%20uma%20cota%C3%A7%C3%A3o%20para%20meu%20projeto."
+                  href="https://wa.me/5518996605512?text=Ol%C3%A1%20CodeStache!%20Gostaria%20de%20conversar%20sobre%20uma%20cota%C3%A7%C3%A3o%20para%20meu%20projeto."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-slate-700 dark:text-slate-300 hover:text-emerald-500 dark:hover:text-emerald-400 text-sm transition-colors group"
@@ -77,13 +77,13 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-400 font-mono">WhatsApp Comercial</p>
-                    <p className="font-medium">+55 (62) 98219-3504</p>
+                    <p className="font-medium">+55 (18) 99660-5512</p>
                   </div>
                 </a>
 
                 {/* Email */}
                 <a
-                  href="mailto:contato@codestache.dev"
+                  href="mailto:joovitordiasdasilva@gmail.com"
                   className="flex items-center gap-3 text-slate-700 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-500 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
@@ -91,7 +91,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-400 font-mono">E-mail Comercial</p>
-                    <p className="font-medium">contato@codestache.dev</p>
+                    <p className="font-medium">joovitordiasdasilva@gmail.com</p>
                   </div>
                 </a>
 
@@ -102,7 +102,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs text-slate-400 font-mono">Localização</p>
-                    <p className="font-medium">Goiânia, GO · Atendimento Remoto Global</p>
+                    <p className="font-medium">Presidente Prudente, SP · Atendimento Remoto Global</p>
                   </div>
                 </div>
 
@@ -213,7 +213,7 @@ export const ContactSection: React.FC = () => {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="(62) 99999-9999"
+                      placeholder="(18) 99660-5512"
                       className="w-full px-4 py-2.5 rounded-lg border border-slate-300 dark:border-[#1E293B] bg-slate-50 dark:bg-[#0B0F19] text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500 text-sm"
                     />
                   </div>
